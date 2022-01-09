@@ -27,7 +27,7 @@ Password - MySQL@123 <br />
 
 Fun Fact - This Project Has 5966 lines of code.
 
-User APP
+User APP <br />
 Login Page <br />
 Here There is Image SildeShow & SildeShow about facts on Indian Power Grid.
 
@@ -55,7 +55,7 @@ Complaint Section
 
 <img width="1273" alt="Screenshot 2022-01-09 at 4 55 33 PM" src="https://user-images.githubusercontent.com/80560020/148680662-ac63903e-0ccb-4ed9-b0b6-33e616c493e4.png">
 
-ADMIN APP
+ADMIN APP <br />
 Login Page <br />
 Here There is Image SildeShow & SildeShow about facts on Indian Power Grid.
 
