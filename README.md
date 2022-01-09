@@ -67,7 +67,8 @@ Admin UI
 
 <img width="1273" alt="Screenshot 2022-01-09 at 4 50 58 PM" src="https://user-images.githubusercontent.com/80560020/148680809-d0794a30-81d9-4787-9324-96566979d843.png">
 
-New Connection
+New Connection <br />
+Regular Expressions are used for checking the inputs.
 
 <img width="1273" alt="Screenshot 2022-01-09 at 4 51 30 PM" src="https://user-images.githubusercontent.com/80560020/148680823-0db84be1-8285-4391-b62f-a5146e7d1ff1.png">
 
