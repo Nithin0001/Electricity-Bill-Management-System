@@ -8,7 +8,7 @@ User app features include paying the Bills using a Card, viewing the previous tr
 This project focuses on Database concepts and Java application development. In Database, we have used Triggers and Stored Procedures.
 Technologies used for UI Development
 
-#Java
+Java
 JavaFX
 AnimateFx
 JDBC 
