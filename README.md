@@ -9,21 +9,21 @@ This project focuses on Database concepts and Java application development. In D
 Technologies used for UI Development
 
 Java <br />
-JavaFX\n
-AnimateFx
-JDBC 
-CSS
-MySQL/SQL
-IDE - IntelliJ, Scene Builder
-Database Management - MySQL Workbench
+JavaFX <br />
+AnimateFx <br />
+JDBC <br />
+CSS <br />
+MySQL/SQL <br />
+IDE - IntelliJ, Scene Builder <br />
+Database Management - MySQL Workbench <br />
 
-Admin Login Details
-User Name - admin
-Password - admin
+Admin Login Details <br />
+User Name - admin <br />
+Password - admin <br />
 
-Database Name `ESM`
-Username - root
-Password - MySQL@123
+Database Name `ESM` <br />
+Username - root <br />
+Password - MySQL@123 <br />
 
 User APP
 Login Page
