@@ -83,11 +83,4 @@ SQL Tables
 
 ![drawSQL-export-2022-01-09_17_21](https://user-images.githubusercontent.com/80560020/148681053-0cdfa7d0-0083-40ca-91ba-51e0ac63ba89.png)
 
-
-
-
-
-
-
-
-
+Copyright @ Nithin R, The Oxford College Of Engineering.
