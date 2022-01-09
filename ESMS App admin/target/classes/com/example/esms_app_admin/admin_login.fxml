@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #25274d; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #25274d #25274d;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.esms_app_admin.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="630.0" layoutX="743.0" layoutY="45.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="510.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="50.0" radius="24.5" width="50.0" />
+         </effect></Rectangle>
+      <Text fill="WHITE" layoutX="30.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Electricity Bill Management System" wrappingWidth="627.21630859375">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="50.0" radius="24.5" width="50.0" />
+         </effect>
+      </Text>
+      <Button fx:id="exit" layoutX="1119.0" layoutY="55.0" mnemonicParsing="false" onAction="#close_onExit" prefHeight="30.0" prefWidth="120.0" stylesheets="@../../../../CSS/hover.css" text="Quit" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="a" />
+            <String fx:value="c" />
+         </styleClass>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </Button>
+      <TextField fx:id="adminName_field" layoutX="810.0" layoutY="207.0" prefHeight="75.0" prefWidth="400.0" promptText="User Name" style="-fx-border-color: #2e9cca; -fx-background-radius: 30; -fx-border-width: 3; -fx-border-radius: 30;">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </TextField>
+      <Button fx:id="login_btn" layoutX="810.0" layoutY="522.0" mnemonicParsing="false" onAction="#login" prefHeight="45.0" prefWidth="400.0" style="-fx-background-radius: 30;" stylesheets="@../../../../CSS/hover.css" text="Login" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <styleClass>
+            <String fx:value="a" />
+            <String fx:value="b" />
+            <String fx:value="e" />
+         </styleClass>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </Button>
+      <ImageView fx:id="admin_logo" fitHeight="93.0" fitWidth="108.0" layoutX="950.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="5.0" radius="2.0" width="5.0" />
+         </effect></ImageView>
+      <Text fx:id="waring_text" fill="#b33a3a" layoutX="820.0" layoutY="618.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="380.21630859375">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="passAdmin_field" layoutX="810.0" layoutY="365.0" prefHeight="75.0" prefWidth="400.0" promptText="Password" style="-fx-background-radius: 30; -fx-border-color: #2e9cca #2e9cca; -fx-border-width: 3; -fx-border-radius: 30;">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </PasswordField>
+      <TextField fx:id="text_slide_field" editable="false" layoutX="30.0" layoutY="599.0" prefHeight="75.0" prefWidth="686.0" style="-fx-background-color: white; -fx-border-color: white; -fx-background-radius: 20; -fx-border-radius: 20;" text="dasdas">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="50.0" radius="24.5" width="50.0" />
+         </effect>
+      </TextField>
+      <ImageView fx:id="img_icon" fitHeight="75.0" fitWidth="81.0" layoutX="559.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fill="WHITE" layoutX="30.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Save Electricity, Save Future" wrappingWidth="218.21630859375">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="50.0" radius="24.5" width="50.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="450.0" layoutY="703.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Copyright @ nithin.All Rights Reserved." textAlignment="CENTER" wrappingWidth="380.21630859375">
+         <effect>
+            <DropShadow height="50.0" radius="24.5" width="50.0" />
+         </effect></Text>
+      <Rectangle fx:id="rect1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="471.0" layoutX="30.0" layoutY="107.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="686.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="50.0" radius="24.5" width="50.0" />
+         </effect>
+      </Rectangle>
+      <ImageView fx:id="login_img" fitHeight="30.0" fitWidth="33.0" layoutX="1042.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="exit_img" fitHeight="26.0" fitWidth="20.0" layoutX="1200.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

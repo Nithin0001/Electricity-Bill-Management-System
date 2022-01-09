@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #25274d #25274d; -fx-background-radius: 15; -fx-border-color: #25274d #25274d #25274d #25274d; -fx-border-radius: 15;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.esms_app_admin.Bills">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="560.0" layoutX="22.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="220.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="50.0" radius="24.5" width="50.0" />
+         </effect>
+      </Rectangle>
+      <Button fx:id="logout_btn" layoutX="23.0" layoutY="610.0" mnemonicParsing="false" onAction="#logout" prefHeight="50.0" prefWidth="219.0" stylesheets="@../../../../CSS/hover.css" text="Logout" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <styleClass>
+            <String fx:value="d" />
+            <String fx:value="c" />
+         </styleClass>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </Button>
+      <Text fill="WHITE" layoutX="22.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Electricity Bill Management System" wrappingWidth="627.21630859375">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="50.0" radius="24.5" width="50.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="23.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Save Electricity, Save Future" wrappingWidth="218.21630859375">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="50.0" radius="24.5" width="50.0" />
+         </effect>
+      </Text>
+      <Button fx:id="my_acc_btn" contentDisplay="CENTER" layoutX="23.0" layoutY="100.0" mnemonicParsing="false" onAction="#my_acc_pane" prefHeight="50.0" prefWidth="219.0" stylesheets="@../../../../CSS/hover.css" text="My Account" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <styleClass>
+            <String fx:value="d" />
+            <String fx:value="b" />
+         </styleClass>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="new_conn_btn" layoutX="23.0" layoutY="200.0" mnemonicParsing="false" onAction="#new_cus" prefHeight="50.0" prefWidth="219.0" stylesheets="@../../../../CSS/hover.css" text="New Connection" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <styleClass>
+            <String fx:value="d" />
+            <String fx:value="b" />
+         </styleClass>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="customer_deatils_btn" layoutX="23.0" layoutY="400.0" mnemonicParsing="false" onAction="#customer_details" prefHeight="50.0" prefWidth="219.0" stylesheets="@../../../../CSS/hover.css" text="Customer Details" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <styleClass>
+            <String fx:value="d" />
+            <String fx:value="b" />
+         </styleClass>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="inbox_btn" layoutX="23.0" layoutY="500.0" mnemonicParsing="false" onAction="#inbox" prefHeight="50.0" prefWidth="219.0" stylesheets="@../../../../CSS/hover.css" text="Inbox" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <styleClass>
+            <String fx:value="d" />
+            <String fx:value="b" />
+         </styleClass>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </Button>
+      <Button fx:id="bills_btn" layoutX="23.0" layoutY="300.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="219.0" stylesheets="@../../../../CSS/hover.css" text="Bills" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <styleClass>
+            <String fx:value="d" />
+            <String fx:value="b" />
+         </styleClass>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </Button>
+      <ImageView fx:id="img_icon" fitHeight="75.0" fitWidth="81.0" layoutX="549.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="admin_logo" fitHeight="75.0" fitWidth="90.0" layoutX="1155.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </ImageView>
+      <Pane layoutX="281.0" layoutY="100.0" prefHeight="560.0" prefWidth="991.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="50.0" radius="24.5" width="50.0" />
+         </effect>
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="269.0" layoutX="48.0" layoutY="269.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="918.0">
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" />
+               </effect>
+            </Rectangle>
+            <TextField fx:id="watt_field" layoutX="96.0" layoutY="354.0" prefHeight="50.0" prefWidth="400.0" promptText="Enter the Kilo Watt customer has consumed" style="-fx-border-color: #2e9cca; -fx-background-radius: 30; -fx-border-width: 3; -fx-border-radius: 30;">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+               </effect>
+            </TextField>
+            <Text fx:id="watt_txt" layoutX="114.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter the Kilo Watt customer has consumed">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" height="4.0" radius="1.5" width="4.0" />
+               </effect>
+            </Text>
+            <Button fx:id="submit_btn" layoutX="114.0" layoutY="419.0" mnemonicParsing="false" onAction="#insert_watt" prefHeight="45.0" prefWidth="104.0" stylesheets="@../../../../CSS/hover.css" text="Submit" textFill="WHITE">
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+               </effect>
+               <styleClass>
+                  <String fx:value="a" />
+                  <String fx:value="b" />
+               </styleClass>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="219.0" layoutX="48.0" layoutY="14.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="918.0">
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" />
+               </effect>
+            </Rectangle>
+            <Text layoutX="441.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bills">
+               <font>
+                  <Font name="System Bold" size="45.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" height="5.0" radius="2.0" width="5.0" />
+               </effect>
+            </Text>
+            <Text fx:id="txt_show" fill="#d51616" layoutX="547.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="400.0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" height="4.0" radius="1.5" width="4.0" />
+               </effect>
+            </Text>
+            <Text layoutX="114.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter the Customer Id for Billing">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" height="4.0" radius="1.5" width="4.0" />
+               </effect>
+            </Text>
+            <Button layoutX="532.0" layoutY="147.0" mnemonicParsing="false" onAction="#search" prefHeight="45.0" prefWidth="104.0" stylesheets="@../../../../CSS/hover.css" text="Search" textFill="WHITE">
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+               </effect>
+               <styleClass>
+                  <String fx:value="a" />
+                  <String fx:value="b" />
+               </styleClass>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <TextField fx:id="c_id_field" layoutX="114.0" layoutY="144.0" prefHeight="50.0" prefWidth="400.0" promptText="Enter the Customer Id" style="-fx-border-color: #2e9cca; -fx-background-radius: 30; -fx-border-width: 3; -fx-border-radius: 30;">
+               <font>
+                  <Font size="23.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+               </effect>
+            </TextField>
+            <Line endX="834.0" layoutX="112.0" layoutY="79.0" startX="-28.5" stroke="#2e9cca" style="-fx-stroke-width: 2;">
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" height="5.0" radius="2.0" width="5.0" />
+               </effect>
+            </Line>
+         </children>
+      </Pane>
+      <ImageView fx:id="acc_img" fitHeight="30.0" fitWidth="33.0" layoutX="30.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="new_img" fitHeight="30.0" fitWidth="33.0" layoutX="30.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bill_img" fitHeight="30.0" fitWidth="33.0" layoutX="30.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="cus_img" fitHeight="30.0" fitWidth="33.0" layoutX="30.0" layoutY="410.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="inbox_img" fitHeight="30.0" fitWidth="33.0" layoutX="30.0" layoutY="510.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="logout_img" fitHeight="30.0" fitWidth="33.0" layoutX="30.0" layoutY="620.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

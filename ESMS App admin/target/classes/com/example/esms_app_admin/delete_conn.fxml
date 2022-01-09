@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="527.0" prefWidth="500.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-border-color: white; -fx-border-radius: 30; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.esms_app_admin.deleteConn">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="212.0" layoutX="15.0" layoutY="13.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="470.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" />
+         </effect>
+      </Rectangle>
+      <Button fx:id="close_del" layoutX="382.0" layoutY="13.0" mnemonicParsing="false" onAction="#close_del_conn" prefHeight="45.0" prefWidth="104.0" stylesheets="@../../../../CSS/hover.css" text="Close" textFill="WHITE">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+         </effect>
+         <styleClass>
+            <String fx:value="a" />
+            <String fx:value="c" />
+         </styleClass>
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Text fx:id="main_txt" layoutX="6.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter the Password To Continue" textAlignment="CENTER" wrappingWidth="488.21630859375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="passAdmin_field" layoutX="32.0" layoutY="101.0" prefHeight="45.0" prefWidth="350.0" promptText="Password" style="-fx-background-radius: 30; -fx-border-color: #2e9cca #2e9cca; -fx-border-width: 3; -fx-border-radius: 30;">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </PasswordField>
+      <Button fx:id="submit_pass" layoutX="32.0" layoutY="160.0" mnemonicParsing="false" onAction="#pass" prefHeight="45.0" prefWidth="104.0" stylesheets="@../../../../CSS/hover.css" text="Submit" textFill="WHITE">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+         </effect>
+         <styleClass>
+            <String fx:value="a" />
+            <String fx:value="b" />
+         </styleClass>
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Text fx:id="pass_txt" fill="#b33a3a" layoutX="164.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="300.21630859375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Pane fx:id="del_pane" layoutX="15.0" layoutY="231.0" prefHeight="255.0" prefWidth="470.0" style="-fx-background-color: white; -fx-background-radius: 30;" visible="false">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" />
+         </effect>
+         <children>
+            <TextField fx:id="inbox_search_field" layoutX="21.0" layoutY="26.0" prefHeight="40.0" prefWidth="400.0" promptText="Enter Customer Id" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-width: 3; -fx-border-color: #2e9cca;" text="Enter Customer Id">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+               </effect>
+            </TextField>
+            <Button fx:id="search_cus" layoutX="21.0" layoutY="95.0" mnemonicParsing="false" onAction="#search_customer" prefHeight="45.0" prefWidth="104.0" stylesheets="@../../../../CSS/hover.css" text="Search" textFill="WHITE">
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+               </effect>
+               <styleClass>
+                  <String fx:value="a" />
+                  <String fx:value="b" />
+               </styleClass>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Text fx:id="del_cus" fill="#b33a3a" layoutX="21.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="400.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Button fx:id="del_cus_per" layoutX="323.0" layoutY="196.0" mnemonicParsing="false" onAction="#del_customer" prefHeight="45.0" prefWidth="104.0" stylesheets="@../../../../CSS/hover.css" text="Delete" textFill="WHITE">
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" height="10.0" radius="4.5" width="10.0" />
+               </effect>
+               <styleClass>
+                  <String fx:value="a" />
+                  <String fx:value="c" />
+               </styleClass>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

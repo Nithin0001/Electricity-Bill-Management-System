@@ -1,0 +1,9 @@
+.a{
+    -fx-background-color:  #25274d;
+    -fx-text-fill: white;
+    -fx-background-radius: 30;
+}
+.b:hover{
+    -fx-background-color: #2e9cca;
+    -fx-text-fill: black;
+}
