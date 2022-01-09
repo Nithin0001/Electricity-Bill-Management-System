@@ -5,7 +5,7 @@ Admin app features include adding new connections deleting existing connections 
 
 User app features include paying the Bills using a Card, viewing the previous transaction made, downloading the invoice, raising the issues to the admin & changing the password.
 
-This project focuses on Database concepts and Java application development. In Database, we have used Triggers and Stored Procedures.
+This project focuses on Database concepts and Java application development. In Database, we have used Triggers and Stored Procedures.<br />
 Technologies used for UI Development
 
 Java <br />
