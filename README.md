@@ -26,6 +26,7 @@ Username - root <br />
 Password - MySQL@123 <br />
 
 Fun Fact - This Project Has 5966 lines of code.
+Buttons color Changes when Hovered Over.
 
 User APP <br />
 Login Page <br />
@@ -43,7 +44,8 @@ Payment
 
 <img width="1273" alt="Screenshot 2022-01-09 at 4 55 01 PM" src="https://user-images.githubusercontent.com/80560020/148680613-29bca4be-0033-43cb-b71b-be2c01f36adc.png">
 
-Transaction History
+Transaction History <br />
+More History will come by doing more transactions like in PhonePe.
 
 <img width="1273" alt="Screenshot 2022-01-09 at 4 55 10 PM" src="https://user-images.githubusercontent.com/80560020/148680632-4676f716-91d0-480f-af7b-ecf471982616.png">
 
