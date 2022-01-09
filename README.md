@@ -31,3 +31,40 @@ Change Password
 Complaint Section
 
 <img width="1273" alt="Screenshot 2022-01-09 at 4 55 33 PM" src="https://user-images.githubusercontent.com/80560020/148680662-ac63903e-0ccb-4ed9-b0b6-33e616c493e4.png">
+
+ADMIN APP
+Login Page
+
+<img width="1273" alt="Screenshot 2022-01-09 at 4 39 48 PM" src="https://user-images.githubusercontent.com/80560020/148680804-47260873-d402-4c77-9075-e39f8df3ba4f.png">
+
+Admin UI
+
+<img width="1273" alt="Screenshot 2022-01-09 at 4 50 58 PM" src="https://user-images.githubusercontent.com/80560020/148680809-d0794a30-81d9-4787-9324-96566979d843.png">
+
+New Connection
+
+<img width="1273" alt="Screenshot 2022-01-09 at 4 51 30 PM" src="https://user-images.githubusercontent.com/80560020/148680823-0db84be1-8285-4391-b62f-a5146e7d1ff1.png">
+
+Bills
+
+<img width="1273" alt="Screenshot 2022-01-09 at 4 51 45 PM" src="https://user-images.githubusercontent.com/80560020/148680829-53d7d15d-0913-4c3c-a10a-1770257be5d3.png">
+
+Check existing users
+
+<img width="1273" alt="Screenshot 2022-01-09 at 4 52 17 PM" src="https://user-images.githubusercontent.com/80560020/148680842-9c69fbb5-7dc2-42a5-95b0-0e18be7e55fc.png">
+
+Inbox
+
+<img width="1273" alt="Screenshot 2022-01-09 at 4 52 33 PM" src="https://user-images.githubusercontent.com/80560020/148680852-dec32fff-7c83-40f2-a2d5-e6f71341a844.png">
+
+<img width="1273" alt="Screenshot 2022-01-09 at 4 52 39 PM" src="https://user-images.githubusercontent.com/80560020/148680864-0d64266f-3315-4308-a0d1-3dd2d2bb4b5c.png">
+
+
+
+
+
+
+
+
+
+
