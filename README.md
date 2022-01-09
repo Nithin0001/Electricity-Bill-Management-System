@@ -1,4 +1,4 @@
-# EBMS
+# EBMS(Electricity Bill Management System)
 A DBMS app for managing Electricity Bills. It has TWO apps one is for admin and the other is for the user.
 
 Admin app features include adding new connections deleting existing connections checking any complaints raised by the user. As we don't have any hardware to measure electricity consumption the admin can also input the kilowatt consumed by the user.
@@ -8,7 +8,7 @@ User app features include paying the Bills using a Card, viewing the previous tr
 This project focuses on Database concepts and Java application development. In Database, we have used Triggers and Stored Procedures.
 Technologies used for UI Development
 
-Java
+#Java
 JavaFX
 AnimateFx
 JDBC 
