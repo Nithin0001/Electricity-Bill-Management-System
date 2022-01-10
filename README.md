@@ -10,7 +10,7 @@ Technologies used for UI Development
 
 Java <br />
 JavaFX <br />
-AnimateFx <br />
+AnimateFX <br />
 JDBC <br />
 CSS <br />
 MySQL/SQL <br />
